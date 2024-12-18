@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <h1>Login</h1>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="username">
+                        <i class="bi bi-person icon"></i>
+                        <input type="text" id="username" placeholder="Enter username" required>
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label for="password">
+                        <i class="bi bi-lock icon"></i>
+                        <input type="password" id="password" placeholder="Enter password" required>
+                    </label>
+                </div>
+                <button type="submit" class="login-button">Login</button>
+                <div id="error" class="error-message"></div>
+                  <!-- Error message container -->
+  <div id="errorMessage" style="margin-top: 10px;"></div>
+
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
